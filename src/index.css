@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-prim;
+}
+
+.ulCountry::-webkit-scrollbar {
+  width: 10px;
+  height: 16px;
+}
+.ulCountry::-webkit-scrollbar-track {
+  background-color: #ffffffa1;
+}
+
+.ulCountry::-webkit-scrollbar-thumb {
+  background: #61676f;
+  border-radius: 100vh;
+}
+
+.ulCountry::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
